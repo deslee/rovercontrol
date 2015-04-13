@@ -1,0 +1,21 @@
+{
+    "org.bcsphere.bluetooth": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcsphere/bluetooth.git",
+            "subdir": "."
+        }
+    },
+    "com.megster.cordova.bluetoothserial": {
+        "source": {
+            "type": "registry",
+            "id": "com.megster.cordova.bluetoothserial"
+        }
+    },
+    "org.apache.cordova.device-motion": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device-motion"
+        }
+    }
+}

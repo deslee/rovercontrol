@@ -1,0 +1,38 @@
+{
+  "name": "btserialrover",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-livereload": "^3.7.0",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-webserver": "^0.9.0",
+    "process": "^0.10.0",
+    "run-sequence": "^1.0.2",
+    "gulp-sass": "*",
+    "reactify": "*",
+    "jest-cli": "*",
+    "react-tools": "*"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "react": "*",
+    "react-router": "*",
+    "object-assign": "*",
+    "flux": "*",
+    "keymirror": "*"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  }
+}
